@@ -20,35 +20,37 @@
               </block>
             </value>
             <next>
-              <block type="robot_delay" id="545" inline="true">
+              <block type="robot_delay" id="557" inline="true">
                 <value name="DELAY">
-                  <block type="math_number" id="546">
+                  <block type="math_number" id="558">
                     <field name="NUM">3000</field>
                   </block>
                 </value>
                 <next>
-                  <block type="movement_stop" id="556"></block>
+                  <block type="robot_delay" id="559" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="560">
+                        <field name="NUM">3000</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="robot_delay" id="545" inline="true">
+                        <value name="DELAY">
+                          <block type="math_number" id="546">
+                            <field name="NUM">3000</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="movement_stop" id="556"></block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
                 </next>
               </block>
             </next>
           </block>
         </next>
-      </block>
-    </next>
-  </block>
-  <block type="robot_delay" id="557" inline="true" x="107" y="-241">
-    <value name="DELAY">
-      <block type="math_number" id="558">
-        <field name="NUM">3000</field>
-      </block>
-    </value>
-    <next>
-      <block type="robot_delay" id="559" inline="true">
-        <value name="DELAY">
-          <block type="math_number" id="560">
-            <field name="NUM">3000</field>
-          </block>
-        </value>
       </block>
     </next>
   </block>
