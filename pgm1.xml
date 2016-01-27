@@ -16,6 +16,39 @@
                     <field name="NUM">3000</field>
                   </block>
                 </value>
+                <next>
+                  <block type="movement_left" id="97">
+                    <next>
+                      <block type="robot_delay" id="99" inline="true">
+                        <value name="DELAY">
+                          <block type="math_number" id="106">
+                            <field name="NUM">2000</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="movement_reverse" id="116">
+                            <next>
+                              <block type="movement_stutter" id="126">
+                                <next>
+                                  <block type="robot_delay" id="128" inline="true">
+                                    <value name="DELAY">
+                                      <block type="math_number" id="135">
+                                        <field name="NUM">3000</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="movement_stop" id="154"></block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
