@@ -1,34 +1,34 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="828" inline="true" x="363" y="210">
+  <block type="controls_repeat" id="1" inline="true" x="363" y="210">
     <value name="TIMES">
-      <block type="math_number" id="835">
+      <block type="math_number" id="2">
         <field name="NUM">1000</field>
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_left" id="751">
+      <block type="movement_left" id="3">
         <next>
-          <block type="robot_delay" id="772" inline="true">
+          <block type="robot_delay" id="4" inline="true">
             <value name="DELAY">
-              <block type="math_number" id="773">
+              <block type="math_number" id="5">
                 <field name="NUM">80</field>
               </block>
             </value>
             <next>
-              <block type="movement_forward" id="771">
+              <block type="movement_forward" id="6">
                 <next>
-                  <block type="robot_delay" id="792" inline="true">
+                  <block type="robot_delay" id="7" inline="true">
                     <value name="DELAY">
-                      <block type="math_number" id="799">
+                      <block type="math_number" id="8">
                         <field name="NUM">80</field>
                       </block>
                     </value>
                     <next>
-                      <block type="movement_right" id="819">
+                      <block type="movement_right" id="9">
                         <next>
-                          <block type="robot_delay" id="820" inline="true">
+                          <block type="robot_delay" id="10" inline="true">
                             <value name="DELAY">
-                              <block type="math_number" id="821">
+                              <block type="math_number" id="11">
                                 <field name="NUM">1000</field>
                               </block>
                             </value>
